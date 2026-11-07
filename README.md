@@ -67,31 +67,24 @@ The exact firmware, thresholds, decision priority, servo angles, timing and fail
 
 ## My contribution and team work
 
-### My contribution
-I primarily worked on the **programming aspect** of the project, including the ESP32-based automation concept and the control logic intended to connect sensor readings with servo operation. The original source code is no longer available to me, so this repository does not claim to reproduce the original firmware.
+### My Contribution
 
-### Team contributions
-- My teammates handled electronic connections and hardware integration.
-- My teammates worked on physical prototype construction.
-- The team conducted research and prepared project documentation.
-- The team completed the prototype and presented the project at college.
+I independently developed the Arduino programming for the Dome Guard project with guidance and support from a senior.
 
-This was a collaborative group project. The repository distinguishes my programming contribution from the hardware tasks handled by teammates.
+My work involved:
+- Developing ESP32-based programming for environmental sensor monitoring.
+- Implementing DHT22 temperature and humidity monitoring.
+- Developing a Wi-Fi-based web server to display sensor readings.
+- Programming rain detection using a rain sensor module.
+- Implementing servo motor control for the automated folding mechanism.
 
-## Development tools and technologies
+### Team Collaboration
 
-- ESP32 microcontroller
-- Embedded / microcontroller programming
-- Environmental sensors
-- Servo motor actuation
-- Electronic circuit connections
-- Arduino IDE was identified in earlier project discussions, but the original sketch is not available here.
+- Hardware connections and circuit integration were handled by my teammates.
+- Physical prototype construction was completed collaboratively.
+- Research, technical documentation and project presentation were carried out by the team.
 
-## Project outcome
-
-The group completed a physical prototype and presented it at college. The project provided practical group experience in embedded programming, sensor-based automation concepts, microcontroller and actuator integration, hardware/software collaboration, technical research, documentation and presentation.
-
-No measured performance figures, sensor accuracy results, wind-resistance limits, dome deployment times, long-term reliability results or crop-yield improvements are claimed because verified test data is not available in this repository.
+This project gave me practical experience in embedded programming, IoT, sensor integration, microcontroller-based automation and teamwork.
 
 ## Design considerations and limitations
 
