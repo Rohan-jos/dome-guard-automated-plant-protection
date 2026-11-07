@@ -110,31 +110,59 @@ This is a project record, not a validated construction guide. Read [`docs/limita
 
 These are future-development ideas, not claims about features already implemented.
 
-## Repository structure
-
-```text
-dome-guard/
+dome-guard-automated-plant-protection/
+│
 ├── README.md
+│
 ├── .gitignore
+│
 ├── LICENSE-NOTE.md
+│
+├── firmware/
+│   │
+│   ├── README.md
+│   │
+│   ├── dht22_wifi_webserver/
+│   │   └── DHT22_WiFi_WebServer.ino
+│   │
+│   └── rain_servo_control/
+│       └── RainServoControl.ino
+│
+├── hardware/
+│   │
+│   ├── README.md
+│   ├── original-circuit-illustration.png
+│   │
+│   └── components/
+│       └── components.md
+│
+├── diagrams/
+│   │
+│   ├── original-block-diagram.png
+│   └── system-architecture.md
+│
 ├── docs/
+│   │
 │   ├── project-overview.md
+│   ├── problem-statement.md
+│   ├── objectives.md
 │   ├── system-architecture.md
+│   ├── methodology-and-testing.md
 │   ├── components.md
 │   ├── contributions.md
-│   ├── methodology-and-testing.md
 │   ├── limitations-and-rebuild-notes.md
 │   └── project-sources.md
-├── diagrams/
-│   └── original-block-diagram.png
-├── hardware/
-│   └── original-circuit-illustration.png
+│
 ├── media/
-│   └── README.md
+│   │
+│   ├── README.md
+│   └── prototype/
+│       └── README.md
+│
 └── references/
-    └── README.md
-```
-
+    │
+    ├── README.md
+    └── technical-references.md
 ## Academic information
 
 - **Project:** Dome Guard — Automated Foldable Dome System for Plants
